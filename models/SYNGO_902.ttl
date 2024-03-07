@@ -7,9 +7,9 @@
 @base <http://model.geneontology.org/SYNGO_902> .
 
 <http://model.geneontology.org/SYNGO_902> rdf:type owl:Ontology ;
-                                           <http://purl.org/dc/elements/1.1/title> "ced-5_BP_902"^^xsd:string ;
                                            <http://geneontology.org/lego/modelstate> "production"^^xsd:string ;
                                            <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+                                           <http://purl.org/dc/elements/1.1/title> "SYNGO_BP_902"^^xsd:string ;
                                            <http://purl.org/dc/elements/1.1/date> "2017-08-28"^^xsd:string ;
                                            <https://w3id.org/biolink/vocab/in_taxon> "http://purl.obolibrary.org/obo/NCBITaxon_6239"^^xsd:string ;
                                            <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string ;
@@ -83,107 +83,107 @@
 #    Individuals
 #################################################################
 
-###  http://model.geneontology.org/SYNGO_9022dc64ee2-4a11-486e-b71c-7a364eef32b9
-<http://model.geneontology.org/SYNGO_9022dc64ee2-4a11-486e-b71c-7a364eef32b9> rdf:type owl:NamedIndividual ,
-                                                                                       <http://purl.obolibrary.org/obo/ECO_0001225> ;
-                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
-                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
-
-
-###  http://model.geneontology.org/SYNGO_90266d24b14-664b-46af-80a8-4d169981ced4
-<http://model.geneontology.org/SYNGO_90266d24b14-664b-46af-80a8-4d169981ced4> rdf:type owl:NamedIndividual ,
-                                                                                       <http://purl.obolibrary.org/obo/GO_0003674> ;
-                                                                              <http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/SYNGO_90294d52013-78cd-405d-91b0-3afc861b8491> ;
-                                                                              <http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/SYNGO_9027f249b32-7caf-4588-a237-05d842f6a609> ;
-                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource <http://model.geneontology.org/SYNGO_90266d24b14-664b-46af-80a8-4d169981ced4> ;
-   owl:annotatedProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
-   owl:annotatedTarget <http://model.geneontology.org/SYNGO_90294d52013-78cd-405d-91b0-3afc861b8491> ;
-   <http://geneontology.org/lego/evidence> <http://model.geneontology.org/SYNGO_90281225d4b-c1ed-4610-bff6-c9126a7475ed> ,
-                                           <http://model.geneontology.org/SYNGO_902e7b67081-33a4-4857-804b-71a9bf7651c3> ,
-                                           <http://model.geneontology.org/SYNGO_902f5c7a0a9-dc0b-4333-a9b0-13da5a4f5e34> ;
-   <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-   <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-   <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource <http://model.geneontology.org/SYNGO_90266d24b14-664b-46af-80a8-4d169981ced4> ;
-   owl:annotatedProperty <http://purl.obolibrary.org/obo/RO_0002333> ;
-   owl:annotatedTarget <http://model.geneontology.org/SYNGO_9027f249b32-7caf-4588-a237-05d842f6a609> ;
-   <http://geneontology.org/lego/evidence> <http://model.geneontology.org/SYNGO_9022dc64ee2-4a11-486e-b71c-7a364eef32b9> ,
-                                           <http://model.geneontology.org/SYNGO_902b533e206-0312-48f0-b57d-ab636bc8003b> ,
-                                           <http://model.geneontology.org/SYNGO_902ec222b18-b1c1-40c7-9708-23aee95786ad> ;
-   <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-   <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-   <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string
- ] .
-
-
-###  http://model.geneontology.org/SYNGO_9027f249b32-7caf-4588-a237-05d842f6a609
-<http://model.geneontology.org/SYNGO_9027f249b32-7caf-4588-a237-05d842f6a609> rdf:type owl:NamedIndividual ,
+###  http://model.geneontology.org/SYNGO_9020656aa37-1535-4353-b2ba-2da7733d66f6
+<http://model.geneontology.org/SYNGO_9020656aa37-1535-4353-b2ba-2da7733d66f6> rdf:type owl:NamedIndividual ,
                                                                                        <http://identifiers.org/wormbase/WBGene00000419> ;
                                                                               <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
                                                                               <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
 
 
-###  http://model.geneontology.org/SYNGO_90281225d4b-c1ed-4610-bff6-c9126a7475ed
-<http://model.geneontology.org/SYNGO_90281225d4b-c1ed-4610-bff6-c9126a7475ed> rdf:type owl:NamedIndividual ,
+###  http://model.geneontology.org/SYNGO_9020f978147-e04a-4717-a47d-a6857552d645
+<http://model.geneontology.org/SYNGO_9020f978147-e04a-4717-a47d-a6857552d645> rdf:type owl:NamedIndividual ,
                                                                                        <http://purl.obolibrary.org/obo/ECO_0001225> ;
                                                                               <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
                                                                               <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
                                                                               <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
 
 
-###  http://model.geneontology.org/SYNGO_90294d52013-78cd-405d-91b0-3afc861b8491
-<http://model.geneontology.org/SYNGO_90294d52013-78cd-405d-91b0-3afc861b8491> rdf:type owl:NamedIndividual ,
+###  http://model.geneontology.org/SYNGO_9021abb76e7-9f76-44e6-9bb3-23e271b85619
+<http://model.geneontology.org/SYNGO_9021abb76e7-9f76-44e6-9bb3-23e271b85619> rdf:type owl:NamedIndividual ,
+                                                                                       <http://purl.obolibrary.org/obo/ECO_0006063> ;
+                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
+                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
+
+
+###  http://model.geneontology.org/SYNGO_902450575ff-f0c0-4829-a012-b921da36dac4
+<http://model.geneontology.org/SYNGO_902450575ff-f0c0-4829-a012-b921da36dac4> rdf:type owl:NamedIndividual ,
+                                                                                       <http://purl.obolibrary.org/obo/GO_0003674> ;
+                                                                              <http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/SYNGO_902d33195d3-5fec-44d2-a407-947833fbde0b> ;
+                                                                              <http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/SYNGO_9020656aa37-1535-4353-b2ba-2da7733d66f6> ;
+                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://model.geneontology.org/SYNGO_902450575ff-f0c0-4829-a012-b921da36dac4> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+   owl:annotatedTarget <http://model.geneontology.org/SYNGO_902d33195d3-5fec-44d2-a407-947833fbde0b> ;
+   <http://geneontology.org/lego/evidence> <http://model.geneontology.org/SYNGO_9020f978147-e04a-4717-a47d-a6857552d645> ,
+                                           <http://model.geneontology.org/SYNGO_902979931ff-f6a0-4463-81f1-d935e3e9f6fd> ,
+                                           <http://model.geneontology.org/SYNGO_90297a50141-8d5b-4bbc-82a4-41ba7fca4c00> ;
+   <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+   <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+   <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://model.geneontology.org/SYNGO_902450575ff-f0c0-4829-a012-b921da36dac4> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/RO_0002333> ;
+   owl:annotatedTarget <http://model.geneontology.org/SYNGO_9020656aa37-1535-4353-b2ba-2da7733d66f6> ;
+   <http://geneontology.org/lego/evidence> <http://model.geneontology.org/SYNGO_9021abb76e7-9f76-44e6-9bb3-23e271b85619> ,
+                                           <http://model.geneontology.org/SYNGO_90262d3d206-fad4-45c3-bfe5-d311b7b82a61> ,
+                                           <http://model.geneontology.org/SYNGO_9026a6db903-af77-4776-9b1e-ff8e95ccf701> ;
+   <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+   <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+   <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string
+ ] .
+
+
+###  http://model.geneontology.org/SYNGO_90262d3d206-fad4-45c3-bfe5-d311b7b82a61
+<http://model.geneontology.org/SYNGO_90262d3d206-fad4-45c3-bfe5-d311b7b82a61> rdf:type owl:NamedIndividual ,
+                                                                                       <http://purl.obolibrary.org/obo/ECO_0001225> ;
+                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
+                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
+
+
+###  http://model.geneontology.org/SYNGO_9026a6db903-af77-4776-9b1e-ff8e95ccf701
+<http://model.geneontology.org/SYNGO_9026a6db903-af77-4776-9b1e-ff8e95ccf701> rdf:type owl:NamedIndividual ,
+                                                                                       <http://purl.obolibrary.org/obo/ECO_0005589> ;
+                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
+                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
+
+
+###  http://model.geneontology.org/SYNGO_902979931ff-f6a0-4463-81f1-d935e3e9f6fd
+<http://model.geneontology.org/SYNGO_902979931ff-f6a0-4463-81f1-d935e3e9f6fd> rdf:type owl:NamedIndividual ,
+                                                                                       <http://purl.obolibrary.org/obo/ECO_0005589> ;
+                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
+                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
+
+
+###  http://model.geneontology.org/SYNGO_90297a50141-8d5b-4bbc-82a4-41ba7fca4c00
+<http://model.geneontology.org/SYNGO_90297a50141-8d5b-4bbc-82a4-41ba7fca4c00> rdf:type owl:NamedIndividual ,
+                                                                                       <http://purl.obolibrary.org/obo/ECO_0006063> ;
+                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
+                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
+
+
+###  http://model.geneontology.org/SYNGO_902d33195d3-5fec-44d2-a407-947833fbde0b
+<http://model.geneontology.org/SYNGO_902d33195d3-5fec-44d2-a407-947833fbde0b> rdf:type owl:NamedIndividual ,
                                                                                        <http://purl.obolibrary.org/obo/GO_0097091> ;
                                                                               <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
-
-
-###  http://model.geneontology.org/SYNGO_902b533e206-0312-48f0-b57d-ab636bc8003b
-<http://model.geneontology.org/SYNGO_902b533e206-0312-48f0-b57d-ab636bc8003b> rdf:type owl:NamedIndividual ,
-                                                                                       <http://purl.obolibrary.org/obo/ECO_0005589> ;
-                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
-                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
-
-
-###  http://model.geneontology.org/SYNGO_902e7b67081-33a4-4857-804b-71a9bf7651c3
-<http://model.geneontology.org/SYNGO_902e7b67081-33a4-4857-804b-71a9bf7651c3> rdf:type owl:NamedIndividual ,
-                                                                                       <http://purl.obolibrary.org/obo/ECO_0006063> ;
-                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
-                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
-
-
-###  http://model.geneontology.org/SYNGO_902ec222b18-b1c1-40c7-9708-23aee95786ad
-<http://model.geneontology.org/SYNGO_902ec222b18-b1c1-40c7-9708-23aee95786ad> rdf:type owl:NamedIndividual ,
-                                                                                       <http://purl.obolibrary.org/obo/ECO_0006063> ;
-                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
-                                                                              <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
-
-
-###  http://model.geneontology.org/SYNGO_902f5c7a0a9-dc0b-4333-a9b0-13da5a4f5e34
-<http://model.geneontology.org/SYNGO_902f5c7a0a9-dc0b-4333-a9b0-13da5a4f5e34> rdf:type owl:NamedIndividual ,
-                                                                                       <http://purl.obolibrary.org/obo/ECO_0005589> ;
-                                                                              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-5615-1014"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/date> "2022-09-28"^^xsd:string ;
-                                                                              <http://purl.org/dc/elements/1.1/source> "PMID:22451697"^^xsd:string ;
+                                                                              <http://purl.org/dc/elements/1.1/date> "2024-03-06"^^xsd:string ;
                                                                               <http://purl.org/pav/providedBy> "https://syngo.vu.nl"^^xsd:string .
 
 
